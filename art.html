@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+			background: linear-gradient(170deg, rgba(192,215,240,1) 0%, rgba(255,255,255,0) 70%) no-repeat;
+			margin: 0;
+			padding: 3% 0 0 0;
+			height: 94vh;
+		}
+		.wrapper1 {
+			display: flex;
+			justify-content: center;
+		}
+		.photo {
+			width: 60%;
+			padding: 15px 15px 70px 15px;
+			background: #f0f0f0;
+			transform: rotate(-5deg);
+		}
+		.photo img {
+			width: 100%;
+		}
+		.photo p {
+			position: absolute;
+			bottom: 0;
+			right: 40px;
+			text-align: right;
+			font-family: "Times New Roman";
+			font-style: italic;
+			color: #555555;
+			font-size: 17px;
+		}
+		.photo p span {
+			font-style: normal;
+		}
+
+		@media screen and (max-width: 900px) {
+			body {
+				padding-top: 8%;
+			}
+		    .photo {
+				width: 85%;
+			}
+			p {
+				font-size: 1em;
+			}
+	    }
+	</style>
+</head>
+<body>
+
+	<div class="wrapper1">
+		<div class="photo">
+			<img src="Happy Birthday.jpg" alt="Happy Birthday">
+			<p>
+				Happy birthday, darling! <br/>
+				Let it be our first a kind of photo <span>📷</span>
+			</p>
+		</div>
+	</div>
+	
+</body>
+</html>
